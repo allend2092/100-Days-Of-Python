@@ -1,0 +1,54 @@
+#Day 1
+
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    #print_hi('PyCharm')
+
+    print ("This is a test!")
+    print ("Day 1 - Python Print Function")
+    print ("The function is declared like this:")
+    print ("print('what to print')")
+
+    #Prompt the user to input some data.
+    input("What is your name?")
+
+    #Print and input
+    print("Your age is: " + input("What is your age?"))
+
+    #To comment a line in linux "ctrl forward slash"
+    #To uncomment a line in linux, "ctrl z"
+
+    #Prompt the user to input some data. print the number of characters!
+    name = input("What is your name? ")
+
+    print(len(name))
+
+
+    #Code Challenege
+    a = input("a: ")
+    b = input("b: ")
+
+    c = a
+    a = b
+    b = c
+
+    print("a = " + b)
+    print("b = " + a)
+
+    print("Your band name is " + name + a + b + c + "\n")
+
+
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
