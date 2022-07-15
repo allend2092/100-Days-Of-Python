@@ -1,0 +1,143 @@
+# Day2
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print('hello')
+
+    # Data Types
+    print('Hello'[0])  # Subscripting
+
+    print('Hello'[4])  # Subscripting
+
+    # Integer
+    print(123 + 345)
+
+    print(123_456 + 222_333)  # Use underscore as comma
+
+    print(3.14)  # Float type
+
+    # Boolean
+    True
+    False
+
+    # Functions
+    print(type(3.14))  # Check what type this is
+    print(type('hello'))
+    print(type(3))
+    print()
+
+    # Type Casting Variables
+    x = 222_222 - 53_678
+    print(type(x))
+    print(x)
+    new_variable = str(x)
+    print(type(new_variable))
+    print(new_variable)
+
+    # Coding Challenge
+    two_digit_number = 99
+
+    print(type(two_digit_number))
+    two_digit_number_string = str(two_digit_number)
+    print('The first number is ' + (two_digit_number_string[0]))
+    print('The second number is ' + (two_digit_number_string[1]))
+    added_numbers = int(two_digit_number_string[0]) + int(two_digit_number_string[1])
+    print("When the first and second number are added: " + str(added_numbers))
+
+    # Mathematical Operators
+    print(3 + 3)
+    print(7 - 4)
+    print(3 * 2)
+    print(6/3)
+    print(type(6 / 3))
+    print(2**3)
+
+    # PEMDAS
+    # Parentheses ()
+    # Exponents **
+    # Multiplication * / (equal with division, do left to right)
+    # Division / * (equal with multiplication, do left to right)
+    # Addition + - (equal with subtraction, do left to right)
+    # Subtraction - + (equal with addition, do left to right)
+
+    print(3 * 3 + 3 / 3 - 3)
+    print(3 * (((3 + 3) / 3) - 3))
+    print(3 * ((3 + (3 / 3)) - 3))
+
+    # BMI calculator
+
+    height = input("What is your height in m? ")  # Just put 1.8 if you don't know your height in m
+    weight = input("What is your weight in kg? ")  # Just put 80 if you don't know your weight in kg
+
+    bmi = float(weight) / float(height) ** 2
+
+    print(int(bmi))
+
+    print(round(8/3, 2))
+
+    print(type(8 // 3))
+
+    number = 400
+    print(number)
+    number += 1
+    print(number)
+
+    # f-String
+    print(f'Your score is {number} and bmi is {bmi}')
+
+
+# Day 2 coding challenge
+
+age_string = input('What is your current age?')
+age = int(age_string)
+
+# Calculate number of days (x), weeks (y), months (z) you have if you lived to 90 years old
+
+lifeExpectancy_years = 90
+lifeExpectancy_months = lifeExpectancy_years * 12
+lifeExpectancy_weeks = lifeExpectancy_years * 52
+lifeExpectancy_days = lifeExpectancy_years * 365
+
+livedMonths = age * 12
+livedWeeks = age * 52
+livedDays = age * 365
+
+remainingYears = lifeExpectancy_years - age
+remainingMonths = lifeExpectancy_months - livedMonths
+remainingWeeks = lifeExpectancy_weeks - livedWeeks
+remainingDays = lifeExpectancy_days - livedDays
+
+
+message1 = f'If you lived for {lifeExpectancy_years} years,'\
+           f" you'd live for {lifeExpectancy_days} days, "\
+           f"{lifeExpectancy_weeks} weeks and "\
+           f"{lifeExpectancy_months} months!"
+
+print(message1)
+
+message2 = f'At age {age}, you have {remainingDays} days, '\
+           f'{remainingWeeks} weeks, {remainingMonths} months,'\
+           f' and {remainingYears} years remaining!'
+
+print(message2)
+
+
+# Tip calculator
+
+totalBill = input("What was the total bill? ")
+tip = input("What percentage tip would you like to give? 10, 12 or 15: ")
+numberOfPeople = input("What is the number of people to split the bill? ")
+
+totalBill = float(totalBill)
+tip = float(tip)
+numberOfPeople = int(numberOfPeople)
+
+tip = (tip/100) + 1
+billPlusTip = totalBill * tip
+payPerPerson = round(billPlusTip / numberOfPeople, 2)
+final_bill = "{:.2f}".format(payPerPerson)
+
+message3 = f"Each person should pay: ${final_bill} "
+print(message3)
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
