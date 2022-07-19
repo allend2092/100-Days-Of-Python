@@ -1,0 +1,13 @@
+# Day 3 Project 2
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    # This program will check if the number input by the user is odd or even
+    number = int(input("Which number do you want to choose?"))
+
+    if number % 2 == 0:
+        print("The number you've input is even!")
+    else:
+        print("The number you've input is odd!")
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
