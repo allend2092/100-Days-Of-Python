@@ -1,0 +1,39 @@
+# 100 Days of Code - Love Calculator
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print("Welcome to the love calculator!")
+    name1 = input("What is your name? \n")
+    name2 = input("What is their name? \n")
+
+    name1 = name1.lower()
+    name2 = name2.lower()
+
+    t_number = name1.count("t") + name2.count("t")
+    r_number = name1.count("r") + name2.count("r")
+    u_number = name1.count("u") + name2.count("u")
+    e_number = name1.count("e") + name2.count("e")
+
+    l_number = name1.count("l") + name2.count("l")
+    o_number = name1.count("o") + name2.count("o")
+    v_number = name1.count("v") + name2.count("v")
+    lve_number = name1.count("e") + name2.count("e")
+
+    total_true = t_number + r_number + u_number + e_number
+    total_love = l_number + o_number + v_number + lve_number
+
+    true_love_combine = str(total_true)  + str(total_love)
+
+    print("Your compatibility is " + true_love_combine)
+
+    true_love_combine = int(true_love_combine)
+
+    if true_love_combine < 10 or true_love_combine > 90:
+        print("You go together like coke and mentos!")
+    elif true_love_combine >= 40 and true_love_combine <= 50:
+        print("You are alright together")
+    else:
+        print(f"Your score is {true_love_combine}")
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
