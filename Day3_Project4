@@ -1,0 +1,29 @@
+# This Day 3 of 100 Days of code!
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    # BMI calculator
+
+    height = input("What is your height in m? ")  # Just put 1.8 if you don't know your height in m
+    weight = input("What is your weight in kg? ")  # Just put 80 if you don't know your weight in kg
+
+    bmi = round(float(weight) / float(height) ** 2, 2)
+
+    print(int(bmi))
+
+    # f-String
+    print(f'Your bmi is {bmi}')
+
+    if bmi < 18.5:
+        print(f"bmi {bmi} means you are underweight")
+    elif (bmi >= 18.5) and (bmi < 25):
+        print(f"bmi {bmi} means you are a normal weight")
+    elif (bmi >= 25) and (bmi < 30):
+        print(f"bmi {bmi} means you are overweight")
+    elif (bmi >= 30) and (bmi < 35):
+        print(f"bmi {bmi} means you are obese")
+    else:
+        print(f"bmi {bmi} means you are clinically obese")
+
+
+#See PyCharm help at https://www.jetbrains.com/help/pycharm/
