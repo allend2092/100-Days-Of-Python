@@ -1,0 +1,14 @@
+# This Day 3 project 1 of 100 Days of code!
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+
+    # If then else statements
+    print("Welcome to the roller coaster!")
+    height = int(input("What is your height in cm? "))
+
+    if height >= 120:
+        print("You can ride the roller coaster!")
+    else:
+        print("Sorry, you have to grow taller before you can ride!")
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
