@@ -1,0 +1,20 @@
+# Day 4 project 4 routlette
+import random
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+
+    # I used the following names for testing
+    # Daryl, Angela, Bryce, Linda, Jesse, Lucy, Will
+    name_strings = input('Give me everyone\'s name separated by a comma! ' )
+    names = name_strings.split(', ')
+
+    #print(len(names))
+    #len(names) minus 1 because the len function starts counting at 1 while the list index begins at 0
+    personPayingBill = random.randint(0,(len(names) - 1))
+
+    print(f'The person paying the bill is {names[personPayingBill]}')
+
+    #Alternatively
+    print(f'{random.choice(names)} will be paying the bill today!')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
