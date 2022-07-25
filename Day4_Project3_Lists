@@ -1,0 +1,20 @@
+# Day4 project3 python lists
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    fruits = ['cherry', 'apple', 'banana']
+
+    state_names = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
+                   "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+                   "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi",
+                   "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York",
+                   "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island",
+                   "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
+                   "West Virginia", "Wisconsin", "Wyoming"]
+    print(state_names[3])
+
+    state_names.append('Daryl_Land')
+
+    print(state_names[50])
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
