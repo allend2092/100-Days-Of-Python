@@ -1,0 +1,19 @@
+# Day 4 Project 1 - Randomization
+import random
+
+#Here I have imported my custom created module
+import my_module
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+
+    myNumber = random.randint(50, 100)
+
+    print(myNumber)
+    print(my_module.pi)
+
+    myFloat = random.random()
+
+    print(myFloat)
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
