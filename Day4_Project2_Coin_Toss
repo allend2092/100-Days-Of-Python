@@ -1,0 +1,11 @@
+# Day4 Coin Toss
+import random
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+   coin = random.randint(0,1)
+
+   if coin == 1:
+       print("Coin has landed heads up!")
+   else:
+       print("Coin has landed tails up!")
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
