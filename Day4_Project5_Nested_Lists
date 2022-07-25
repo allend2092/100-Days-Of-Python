@@ -1,0 +1,11 @@
+# Day4 project5 nested list
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    fruits = ["Strawberries", "Nectarines", "Apples"]
+    vegetables = ["Spinach", "Kale", "Tomatoes"]
+
+    nested_list = [fruits, vegetables]
+
+    print(nested_list)
