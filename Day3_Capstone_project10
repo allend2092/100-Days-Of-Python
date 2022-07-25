@@ -1,0 +1,101 @@
+# Day 3 Project 10 - Treasure Island Project
+# Comments and stuff ("and stuff" is very important)
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print('''CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCGGCLGGGGGGCCCCCCCCCCCCCCCCC
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii;;;;;iii:1i11iiiiiiiiiiiiiiiiiii
+i111111111111111ii111111111iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii111i;;i1tLCG0808880GGCLft1iii11iiiiiiiii
+i1iit1111111t111111111t1ii1iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii;;1fC8@@8GLLL@@00@@@@@@@80Ltii11iiiiiii
+i1ii111111111111111111t1ii1iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiitL0@@@@L1::;tCLii;:C@@@@@@@@@8fii1iiiiii
+i1ii111111111111i11i1i1iii1iiiiiiii1111111111iiiiiiiiiii111C@@@@@@@CCCC1:t;:i;:C@@@@@@@@@@@8t;11iiii
+i1ii11111111111111111111i11iii;;;;;;;;;;;;;;;iiiii11iii111C@@@@@@@@L1111f00LfC0@@@@@@@@@@@@@@G;11iii
+i11iiiii1i11iiiiiii1iii1ii;;;;;iiiiiiiiiii;;;::::;;i11tt1f@@@@@@@@@@008@@@@@@@@88@8G@@@@@@@@@@0;11ii
+iiiiiiiiiiiiiiiiiiiiii;:;;i111111111111111111111ii;;;;i1t0@@@@@@Ctifi10L1f8f;;CG:tii8@@@@@@@@@@L;t1i
+iiiiiiiiiiiiiiiiiiii;:;i11111111111111111111111111111i;;;L@@@@@@;;L.L;,;:,1,1L;8f::C@@@@@@G8@@@C:f11
+iiiiiiiiiiiiiiiiii;:;1111111tttttffffffffffttt11111111i1i:iL8@@8;tG;Gi11fGLL080@0:1@@@@@@0,L@@@8ftt1
+iiiiiiiiiiiiiii;;::11111ttffffffffffffffffffffftt1111i;::1i,;L8@G088@@@@@@@@@@@@Ci0@@@@@@f,C@@@@Ctft
+iiiiiiiiiii;;;;iii1111tfffffffffffffffffffffffffffftt111:1@@0C0@@@@8Liit0@08@0G888088LfG@L:G@@@@ftft
+iiiiiiii;;;;i1111111ttfffffffffffffffffffffffffffffffft1t:1@@@@@@@@8i:1:1ti1f1ii1;ittiii00G@8@@Liftt
+iiiiiii:;i1111111ttfffffffffffffffffffffffffffftffftfffftf:1G8@@@@@8i:;;;;;;:;;;;1@8Gt110tf@@@C:tttt
+iiiiii:;111i11ttffffffff1tfffffffffffffffffffff1iffi;ffffff:;18@@@@8tif0GLC8GLL088@@808@@@@8C1itfttt
+iiiii:i1i111tfffffffffff:i111ttt11ttttfffffffffL;1Lt:fffftfi11iL08@@@@@@@@@@@@@@@@@@@@@@0Ctiitfttttt
+iii;:11ii11tfffffffffff118GCCLLCCCCLfft111tfffffiiLi;Lfff1::1tt1:L@088@@@@@@@@@@@80GCLf1ii1tfttttttt
+iii:1i;111tffffffifffft;G80888@C:t888880GC1iffff:ft,tffff1,,tt1:;t1i1111ttti11111111111tfftttttttttt
+ii:;:,i11tfffffft:fff1iG8000008:  1800000@1 :fLt;1::Lffff:tt1;;1t1ttttttttt:1ttttttftttttttttttttttt
+ii,:,;1i1tffffff;tf11t08000008G.  ,0000000.  it,;Ltiffff;111ii11ttttttttttt:1ttttttttttttttttttttttt
+i;.;:i1i1tfffti,:;:fG800000008G    C800000,  .;t0C;Lfft,;1tfLLCt:fttttttttt:1ttttttttttttttttttttttt
+i:;i,1i11tfff1iii;;@0000000000L1tt1G8000081,;;f08t;ttiitCCG00Gf;1tttttttttt:1ttttttttttttttttfftfttf
+iiii,i1i11tffftttf;L8000000000088tLCG0888888880008G;iLGG00GLtiitttttttttttt:it111111111111111iiiiiii
+iiii:i11i1ttfffffft;C800000000008t  .:i1111L0000008Li880L1ii1tttttttttttttt;1tt1111111iiiiiiiiii;;;;
+iiii::111i1ttftfffft;C800000000000,      .L000000081CG1;i1ttttttttttttttttt:;;;;;;;;;;;;;;;;;;;;;;;;
+iiiii:;1i111ttfffffft;f08000000008f.;,. i080000000f11;;,itttttttttttttttttt:1111111111111iiiiiiiii;;
+iiiiii,;1;i11ttfffftffiif0800000000ttf;t8000080GLti;i111;;ittttttttttttttt1:i;;;;;;;i;;;:i;;;:::::::
+iiiiiii,i:,1ii1ttfffttft11tLC0088888CC080000CftLCi;1111tffi;ittttttttttttti;Li111:;i1111:111ii;i;:i;
+iiiiiiii::.;11i11ttfffffff1iii11ffttLLfff1i;,fGC;i1ii1tfffffi:1tttttttttt1i;Li111:111111:1111;;i::i;
+iiiiiiiii; ,:i11i111ttffffttt1ii:;;.;LCCC1;Lttf::i1i1tfttfftf1.ittttttttt1i;Li11t:i11111:111i;;i::;;
+iiiiiiiiii;,;:;;i11i1111tt11111:tCCGft1LftG0GGGGC1:1ttfftffftf:.tttttttt1i;;Li11t:i11111:i,i1;;;,:ii
+iiiiiiiiiii;,;;::;iii11;;i11111:1GG000fiG0GGGGGGG0f;fffffffffff:1ttttttt1i;iLi11t:111111:1i;;i;;,;ii
+iiiiiiiiiiiii:iii;;;;;;;:::;iii1;;C0G08C1C0GGGGGGG011fffffffftf1:ttttttt1i;;L11tt:111111:111::::.:::
+iiiiiiiiiiiiiiiiiiiiii;;;;:,,;;;i:,t00G8GiC0GGGGGG0fifffffffffff:1ttttt11ii;f1tt1:111111:11i;;i;,;i;
+iiiiiiiiiiiiiiiiiiiiiiiiiii11111ii;.;C000GiL0GGGGG0iiftffffftfiti;ttttt1iii;f1tt1:11111i:11i;;i;,i;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii111tttt1:;t00001f0GGGGG;ffttfffftfi,i;ttttt1iii:t11tt:i1111i:1i;;;i:,i;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii11111t1t1;1i00001t0GG0f,1tffftfftf1..1tttt1iiii:t11tt:i1111i:1;;;;i:,i;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii11t11t11t;i118G081t0GG;ii;;1ftfftf;i1tttt11iiii:t11tt:;;iii;,;;;:;;:,;;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii111t111tt;iCif8G08if0f;ttt1:ifttf1:ttttt11iiiii:t11tt:ii;:,,..,::::,,:::
+iiiiiiiiiiiiiiiiiiiiiiiiiiii111t1tt1;1LLL:C000G;0iittttt:iftf:it1tt111iiiii:t11tt:11;1:,,:;:i;i::i;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii1111t1iifLfLLt;00G8iLi1tttttt:tf:it1tttt1iiiiii:t1t11:i1;;;::::;;;i::i;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii11tt1itLLLLfLL:G0G0tt;ttttt1ti:;;t1tttt1iiiiiii:11111:i1i;;:;;;;;;i::i;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiii11ii1LLLfLLLfLiG008ti;ttttttt1,itttttt1iiiiiiii:1i111:ii;;;,;;;;;;;,:;;;
+iiiiiiiiiiiiiiiiiiiiiiiiiiiiii1fLffLfLCCffi10Gfif;ttttttt1tt1t11t1iiiiiiiii:1ii11:;;;;;,;;;:;i;,,:::
+iiiiiiiiiiiiiiiiiiiiiiii;;;;1LLffLLfLCGGCLL1tttGL;ttttttttt1t11t1iiiiiiiiii:111ii,;;;;:,i:,,;::,,:::
+iiiiiiiiiiiiiiiiiiii;i;,,,;1ffffffLLCGGGGGCGGGGCf;t1ttttttttt111iiiiiiiiiii:1ii;;,;;;;::;;;;;;;,:;;;
+iiiiiiiiiiiiiiiiiiiiii;;;1fLfffffLCCGGGGGGGGGCGL.:t1tttttttt11iiiiiiiiiiii;,i;;;;,;;;;::;;;;;;;,:;;;
+iiiiiiiiiiiiiiiiiiii;;itLLffffffLCCGGGGGGGGGCCGt,,ttttt1ttt1iiiiiiiiiiiiiii,i;;;;,ii;i::;;;;;;;,:;;;
+iiiiiiiiiiiiiiiii;;itfLLffffffLCCGGGGGGGGGGGGGG;t,itttttt11iiiiiiiiiiiiii;:,:::::.,,:;,:;;;;;;;,;;;;
+iiiiiiiiiiiii;:;ii1i;tLffffffLCGCCCGCGGGGCGGtG1itiit1tt11iiiiiiiiii;;;;;i1ffffffttffft;........ ....
+iiiiiiiiiii;:,:;i;::tLfffffLCGCCCCCCCGGCCC0:if;t1tt1111iiiiiiii;;;;i11fLG000888@@8Gfi:.             
+iiiiiiiiiiiiiii;;itLLffffLCCGGGCCCCCCCCCGG;:L;t1t111iiiiiiii;;i1tLLCCC08888888Gfi,                :t
+iiiiiiiiiiii;;:itLLffffLCCGCCCCCGGCCCCGGfi:t;tt11iiiiii;;:,. .:;;ii1tLCCCGGGf;.                ,1G@@
+iiiiiiiii;;;;1tffffffLCCGCCCGGGGCCCGGCfii:ii1iiiiii;:,.                 ,iLGCCCCCCLfffftt111; .1fftt
+iiiiiii::itfLLLLfLLCCGGGGGGCLft;;LCftii1::iiii;:,..                 .;tC0888888888888888@@8f:       
+iiiiiii;;;i1ii11ttfffttt1ii;;,,;t1i;ii1i:;;:.                   .:1L08880000000000000088G1.         
+ii;;;;;;;;;;:::::::::::::;;;:,:;:;;;;:;;i1t1i;:.            .:1fG888000000000000000000L;            
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCLLCG000000000GCfffffffffLG8@@8888888888888888888880ftffffffffffff
+''')
+    print("Welcome to Treasure Island!")
+    print("Your mission is to find the treasure!")
+
+    left_or_right = input("Do you want to go 'left' or 'right'? ")
+    left_or_right = left_or_right.lower()
+    print(type(left_or_right))
+    print(left_or_right)
+
+    if left_or_right.lower() == 'left':
+        swim_or_weight = input("Do you want to 'swim' or 'wait'? ")
+        if swim_or_weight.lower() == 'wait':
+            which_door = input("Which door do you want to open? 'red' 'yellow' 'blue' ")
+            if which_door.lower() == 'yellow':
+                print('You win! Game Over!')
+                exit(0)
+
+            elif which_door.lower() == 'blue':
+                print('You died! Game Over!')
+                exit(0)
+            else:
+                print('You died! Game Over!')
+                exit(0)
+
+
+        else:
+            print('You died! Game Over!')
+            exit(0)
+    else:
+        print("You died! Game Over!")
+
+
+
+
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
