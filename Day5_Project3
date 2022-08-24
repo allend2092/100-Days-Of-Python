@@ -1,0 +1,15 @@
+# Day 5 project 3
+
+# Finds the largest number in the list
+if __name__ == '__main__':
+    student_scores = [78, 65, 89, 86, 55, 91, 64, 89]
+
+    score_place_holder = 0
+
+    for score in student_scores:
+        if score >= score_place_holder:
+            score_place_holder = score
+
+    print(f'The high score is {score_place_holder}')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
