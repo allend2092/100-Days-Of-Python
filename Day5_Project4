@@ -1,0 +1,23 @@
+# Day5 project 4
+
+
+# for loop with range attribute
+if __name__ == '__main__':
+    # range training
+    for number in range(1,10):
+        print(number)
+
+    for number in range(1, 11):
+        print(number)
+
+    for number in range(1, 11, 3):
+        print(number)
+
+    #add all the numbers from 1 to 100
+    total = 0
+    for number in range(1, 101):
+        # print(number)
+        total += number
+    print(total)
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
