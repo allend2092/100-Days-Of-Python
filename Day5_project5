@@ -1,0 +1,22 @@
+# Day 5 project 5
+
+# for loops with range attribute
+if __name__ == '__main__':
+    print("What the eff, you're actually reading my code?!?!?")
+    print("Why are you reading this garbage?!?!?")
+
+    total = 0
+    for number in range(1, 101):
+        if number % 2 == 0:
+            total += number
+
+    print(f"If I added all the even numbers from 1 to 100, that would equal {total}")
+
+    # alternatively, instructor solved it this way to highlight 3rd parameter of the functions
+    total = 0
+    for number in range(2, 101, 2):
+        total += number
+
+    print(f"The correct answer is: {total}")
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
