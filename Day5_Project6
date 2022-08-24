@@ -1,0 +1,24 @@
+# Day5 project 6
+# turn fizz buzz into a program: https://en.wikipedia.org/wiki/Fizz_buzz
+
+# write out numbers according to the rules of fizz buzz game. 
+# If you don't know the rules of fizz buzz, open the above link
+if __name__ == '__main__':
+
+    for number in range(1, 101):
+        if number % 3 == 0:
+            if number % 5 != 0:
+                print("Fizz!")
+            elif number % 5 == 0:
+                print("FizzBuzz!")
+        else:
+            if number % 5 == 0:
+                if number % 3 != 0:
+                    print("Buzz!")
+                elif number % 3 == 0:
+                    print("FizzBuzz!")
+            else:
+                print(number)
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
